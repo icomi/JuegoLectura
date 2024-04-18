@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ingenieriaycomputacionintegral.juegolectura"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="5"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ingenieriaycomputacionintegral.juegolectura.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ingenieriaycomputacionintegral.juegolectura.Memorama"
+            android:label="@string/title_activity_memorama"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.ingenieriaycomputacionintegral.juegolectura.Emparejamiento"
+            android:label="@string/title_activity_emparejamiento"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.ingenieriaycomputacionintegral.juegolectura.SilabasFlor"
+            android:label="@string/title_activity_silabasflor" >
+        </activity>
+        <activity
+            android:name="com.ingenieriaycomputacionintegral.juegolectura.Estanque"
+            android:label="@string/title_activity_estanque" >
+        </activity>
+        <activity
+            android:name="com.ingenieriaycomputacionintegral.juegolectura.Laberinto"
+            android:label="@string/title_activity_laberinto" >
+        </activity>
+        <activity
+            android:name="com.ingenieriaycomputacionintegral.juegolectura.JuegoBarcos"
+            android:label="@string/title_activity_juego_barcos" >
+        </activity>
+    </application>
+
+</manifest>

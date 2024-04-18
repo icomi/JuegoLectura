@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JuegoLectura</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="bmemorama">Memorama</string>
+    <string name="bestanque">Estanque</string> 
+    <string name="title_activity_memorama">Memorama</string>
+    <string name="title_activity_emparejamiento">Emparejamiento</string>
+    <string name="title_activity_silabasflor">Silabas en Flor</string>
+    <string name="title_activity_juego_asteroides">JuegoAsteroides</string>
+    <string name="title_activity_estanque">Estanque</string>
+    <string name="title_activity_laberinto">Laberinto</string>
+    <string name="title_activity_juego_barcos">JuegoBarcos</string>
+
+</resources>
